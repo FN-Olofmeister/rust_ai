@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=C:\Users\bjh54\development\mcp_rust\pi_postman_wasm\target\debug\build\mime_guess-f48582c81a56f999\out\mime_types_generated.rs

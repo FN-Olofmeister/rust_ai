@@ -1,0 +1,15 @@
+/Users/jowanik/Downloads/pi_postman_wasm/target/debug/deps/libmarkup5ever-bcf9f1dab4cc5cd8.rmeta: /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/lib.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/data/mod.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/interface/mod.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/interface/tree_builder.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/serialize.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/util/buffer_queue.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/util/smallcharset.rs /Users/jowanik/Downloads/pi_postman_wasm/target/debug/build/markup5ever-851d0d136c52aaab/out/generated.rs /Users/jowanik/Downloads/pi_postman_wasm/target/debug/build/markup5ever-851d0d136c52aaab/out/named_entities.rs
+
+/Users/jowanik/Downloads/pi_postman_wasm/target/debug/deps/markup5ever-bcf9f1dab4cc5cd8.d: /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/lib.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/data/mod.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/interface/mod.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/interface/tree_builder.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/serialize.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/util/buffer_queue.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/util/smallcharset.rs /Users/jowanik/Downloads/pi_postman_wasm/target/debug/build/markup5ever-851d0d136c52aaab/out/generated.rs /Users/jowanik/Downloads/pi_postman_wasm/target/debug/build/markup5ever-851d0d136c52aaab/out/named_entities.rs
+
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/lib.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/data/mod.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/interface/mod.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/interface/tree_builder.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/serialize.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/util/buffer_queue.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.14.1/util/smallcharset.rs:
+/Users/jowanik/Downloads/pi_postman_wasm/target/debug/build/markup5ever-851d0d136c52aaab/out/generated.rs:
+/Users/jowanik/Downloads/pi_postman_wasm/target/debug/build/markup5ever-851d0d136c52aaab/out/named_entities.rs:
+
+# env-dep:OUT_DIR=/Users/jowanik/Downloads/pi_postman_wasm/target/debug/build/markup5ever-851d0d136c52aaab/out

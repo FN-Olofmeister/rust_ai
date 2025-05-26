@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "common",
+  "master", "wasm_host",
+  "worker",
+]

@@ -1,0 +1,11 @@
+/Users/jowanik/Downloads/pi_postman_wasm/target/debug/deps/libmailparse-8635653965e96764.rmeta: /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/lib.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/addrparse.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/body.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/dateparse.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/header.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/headers.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/msgidparse.rs
+
+/Users/jowanik/Downloads/pi_postman_wasm/target/debug/deps/mailparse-8635653965e96764.d: /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/lib.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/addrparse.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/body.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/dateparse.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/header.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/headers.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/msgidparse.rs
+
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/lib.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/addrparse.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/body.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/dateparse.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/header.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/headers.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mailparse-0.13.8/src/msgidparse.rs:

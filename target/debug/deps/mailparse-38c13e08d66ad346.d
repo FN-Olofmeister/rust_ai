@@ -1,0 +1,11 @@
+C:\Users\bjh54\development\mcp_rust\pi_postman_wasm\target\debug\deps\libmailparse-38c13e08d66ad346.rmeta: C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\lib.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\addrparse.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\body.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\dateparse.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\header.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\headers.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\msgidparse.rs
+
+C:\Users\bjh54\development\mcp_rust\pi_postman_wasm\target\debug\deps\mailparse-38c13e08d66ad346.d: C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\lib.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\addrparse.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\body.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\dateparse.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\header.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\headers.rs C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\msgidparse.rs
+
+C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\lib.rs:
+C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\addrparse.rs:
+C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\body.rs:
+C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\dateparse.rs:
+C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\header.rs:
+C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\headers.rs:
+C:\Users\bjh54\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\mailparse-0.13.8\src\msgidparse.rs:

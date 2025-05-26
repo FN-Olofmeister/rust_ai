@@ -1,0 +1,40 @@
+[package]
+name    = "common"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+native  = [
+    "tokio",
+    "reqwest",
+    "imap",
+    "native-tls",
+    "scraper",
+    "mailparse",
+    "lettre",
+    "openai",
+    "dotenv",
+]
+wasm    = []
+default = []
+
+[dependencies]
+anyhow       = "1"
+serde        = { version = "1", features = ["derive"] }
+serde_json   = "1"
+uuid         = { version = "1.6", features = ["v4","serde","js"] }
+chrono       = { version = "0.4", default-features = false, features = ["clock","serde"] }
+lazy_static  = "1.5"
+regex        = "1"
+tracing      = "0.1"
+
+# ── 네트워크 stack → optional ──────────────────────────
+tokio        = { version = "1.37", features = ["full"], optional = true }
+reqwest      = { version = "0.12", default-features = false,   features = ["json","native-tls"], optional = true }
+imap         = { version = "3.0.0-alpha.15", default-features = false, optional = true }
+native-tls   = { version = "0.2", optional = true }
+scraper      = { version = "0.23", optional = true }
+mailparse    = { version = "0.13", optional = true }
+lettre       = { version = "0.11.4", features = ["builder","smtp-transport","tokio1-native-tls"], optional = true }
+openai       = { version = "1.0.0-alpha.7", optional = true }
+dotenv       = { version = "0.15", optional = true }

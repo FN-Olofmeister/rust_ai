@@ -1,0 +1,12 @@
+/Users/jowanik/Downloads/pi_postman_wasm/target/debug/deps/libopenai-eb665379c99cb834.rmeta: /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/lib.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/chat.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/completions.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/edits.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/embeddings.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/files.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/models.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/moderations.rs
+
+/Users/jowanik/Downloads/pi_postman_wasm/target/debug/deps/openai-eb665379c99cb834.d: /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/lib.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/chat.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/completions.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/edits.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/embeddings.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/files.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/models.rs /Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/moderations.rs
+
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/lib.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/chat.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/completions.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/edits.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/embeddings.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/files.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/models.rs:
+/Users/jowanik/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openai-1.1.0/src/moderations.rs:
