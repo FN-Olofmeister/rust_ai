@@ -62,7 +62,7 @@ pub fn fetch_unseen_emails(
     }
 
     let mut out = Vec::new();
-    
+   
     // 🔥 수정사항 1: UID를 개별적으로 처리하여 IMAP 명령어 파싱 오류 방지
     for &uid in &uids {
         match fetch_single_email(session, uid) {
@@ -88,7 +88,7 @@ fn fetch_single_email(
 ) -> imap::error::Result<Option<ParsedEmail>> {
     // 🔥 수정사항 3: 더 안전한 FETCH 명령어 사용
     let fetch_result = session.uid_fetch(uid.to_string(), "BODY.PEEK[]");
-    
+   
     let fetches = match fetch_result {
         Ok(f) => f,
         Err(e) => {
@@ -114,7 +114,7 @@ fn fetch_single_email(
             }
         }
     }
-    
+   
     Ok(None)
 }
 
@@ -136,7 +136,7 @@ fn try_alternative_fetch(
                     attachments: Vec::new(),
                     gmail_link: format!("https://mail.google.com/mail/u/0/#search/rfc822msgid:{}", uid),
                 };
-                
+               
                 // 읽음 표시
                 let _ = session.uid_store(uid.to_string(), "+FLAGS (\\Seen)");
                 return Ok(Some(email));
@@ -146,7 +146,7 @@ fn try_alternative_fetch(
             eprintln!("Alternative fetch also failed for UID {}: {}", uid, e);
         }
     }
-    
+   
     Ok(None)
 }
 
@@ -158,7 +158,7 @@ fn parse_single_email(uid: u32, bytes: &[u8]) -> Result<ParsedEmail, Box<dyn std
         .headers
         .get_first_value("Subject")
         .unwrap_or_else(|| "(제목 없음)".into());
-    
+   
     let from = parsed
         .headers
         .get_first_value("From")
@@ -197,12 +197,12 @@ fn collect_attachments(part: &ParsedMail, out: &mut Vec<String>) {
             }
         }
     }
-    
+   
     // 2) Content-Type name 파라미터
     if let Some(name) = part.ctype.params.get("name") {
         out.push(name.clone());
     }
-    
+   
     // 3) 재귀 처리
     for sub in &part.subparts {
         collect_attachments(sub, out);

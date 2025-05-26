@@ -98,7 +98,7 @@ async fn main() {
                 match classify_via_openai(&subj, &body).await {
                     Ok((cat, score)) => {
                         info!("[AI] 분류 완료: {} ({})", cat, score);
-                        if let Err(e) = send_discord_alert(&hook, &subj, &sndr, &cat).await {
+                        if let Err(e) = send_discord_alert(&hook, &subj, &sndr, &cat, None).await {
                             error!("[Discord] 전송 실패: {}", e);
                         }
                     }

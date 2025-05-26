@@ -14,18 +14,27 @@ pub async fn send_discord_alert(
     subject: &str,
     sender: &str,
     category: &str,
+    worker_id: Option<&str>, // 새로 추가된 매개변수
 ) -> Result<(), reqwest::Error> {
     let is_spam = category.eq_ignore_ascii_case("SPAM");
     let prefix = if is_spam { "[스팸] " } else { "" };
+   
+    // worker_id 표시 부분
+    let worker_info = match worker_id {
+        Some(id) => format!("\n처리자: {}", id),
+        None => String::new(),
+    };
+   
     let content = format!(
         "{prefix}📬 메일 알림\n\
          제목: {subject}\n\
          보낸이: {sender}\n\
-         분류: {category}",
+         분류: {category}{worker_info}",
         prefix = prefix,
         subject = subject,
         sender = sender,
-        category = category
+        category = category,
+        worker_info = worker_info
     );
 
     let client = Client::new();
@@ -43,9 +52,9 @@ pub async fn send_discord_alert(
         .unwrap_or_else(|_| "<body 읽기 실패>".into());
 
     if status.is_success() {
-        info!("[Discord] 전송 성공: {} (status={})", subject, status);
+        info!("[Discord] 전송 성공: {} (status={}) worker_id={:?}", subject, status, worker_id);
     } else {
-        error!("[Discord] 전송 실패: status={} body={}", status, body_text);
+        error!("[Discord] 전송 실패: status={} body={} worker_id={:?}", status, body_text, worker_id);
     }
 
     Ok(())

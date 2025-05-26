@@ -50,7 +50,7 @@ async fn main() {
                             info!("[{}] 처리 시작: {}", now.format("%Y-%m-%d %H:%M:%S"), subj);
                             match classify_via_openai(&subj, &body).await {
                                 Ok((cat, _)) => {
-                                    if let Err(e) = send_discord_alert(&hook, &subj, &sndr, &cat).await {
+                                    if let Err(e) = send_discord_alert(&hook, &subj, &sndr, &cat, None).await {
                                         error!("[Discord] 전송 실패: {}", e);
                                     }
                                 }
