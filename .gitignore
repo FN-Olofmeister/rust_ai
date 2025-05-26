@@ -1,0 +1,26 @@
+# === Rust 빌드 아티팩트 ===
+**/target/
+
+# === VSCode 및 IDE 설정 ===
+.vscode/
+.idea/
+
+# === Node.js 관련 ===
+node_modules/
+pkg/
+
+# === 환경 변수 및 민감 정보 ===
+.env
+*.key
+
+# === 로그, 백업, 임시파일 ===
+*.log
+*.tmp
+*.bak
+
+# === OS 자동 생성 파일 ===
+.DS_Store
+Thumbs.db
+
+# === Cargo.lock 무시 (라이브러리일 경우) ===
+# Cargo.lock
