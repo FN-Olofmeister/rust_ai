@@ -6,6 +6,7 @@ use native_tls::TlsConnector;
 use scraper::Html;
 use std::net::TcpStream;
 
+#[derive(Clone)]
 pub struct GmailConfig {
     pub email: String,
     pub password: String,
@@ -82,7 +83,7 @@ pub fn fetch_unseen_emails(
 }
 
 // 🔥 수정사항 2: 개별 이메일 처리 함수 분리
-fn fetch_single_email(
+pub fn fetch_single_email(
     session: &mut Session<native_tls::TlsStream<TcpStream>>,
     uid: u32,
 ) -> imap::error::Result<Option<ParsedEmail>> {
@@ -102,9 +103,9 @@ fn fetch_single_email(
         if let Some(bytes) = fetch.body() {
             match parse_single_email(uid, bytes) {
                 Ok(email) => {
-                    // ✅ 읽음 플래그 설정 (오류가 나도 계속 진행)
-                    let _ = session.uid_store(uid.to_string(), "+FLAGS (\\Seen)")
-                        .map_err(|e| eprintln!("Warning: Failed to mark as seen UID {}: {}", uid, e));
+                    // // ✅ 읽음 플래그 설정 (오류가 나도 계속 진행)
+                    // let _ = session.uid_store(uid.to_string(), "+FLAGS (\\Seen)")
+                    //     .map_err(|e| eprintln!("Warning: Failed to mark as seen UID {}: {}", uid, e));
                     return Ok(Some(email));
                 }
                 Err(e) => {

@@ -20,7 +20,7 @@ struct Classification {
 pub async fn classify_via_openai(subject: &str, body: &str) -> Result<(String, f32)> {
     let api_key = env::var("OPENAI_API_KEY")
         .map_err(|_| anyhow!("환경변수 OPENAI_API_KEY가 설정되어야 합니다"))?;
-    let model = env::var("OPENAI_MODEL").unwrap_or_else(|_| "gpt-4".to_string());
+    let model = env::var("OPENAI_MODEL").unwrap_or_else(|_| "gpt-4.1".to_string());
     let api_url = env::var("OPENAI_API_URL")
         .unwrap_or_else(|_| "https://api.openai.com/v1".to_string());
     let to_sec: u64 = env::var("OPENAI_TIMEOUT")
